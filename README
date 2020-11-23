@@ -1,0 +1,24 @@
+                                    // LIBRAIRIE CHIFFREMENT JULIUS \\
+                                // TRAVAIL RÉALISÉ PAR MOHAMED RAHMOUNI \\
+
+L'archive, ici présente, est le fruit de mon travail concernant le cas d'étude final, au sujet de la librairie JULIUS, fournissant
+la fonction chiffrer, fonction permettant de crypter une chaîne de caractères selon la méthode de César.
+
+Dans cette archive, vous pourrez trouver :
+
+- Le fichier source chiffrer.c, fichier source de la fonction chiffrer, permettant un chiffrement par décalage d'une chaîne de caractères
+  ainsi qu'un changement de casse des caractères. On y trouve également le code source d'une fonction cesar_decrypt, qui permet de faire un
+  déchiffrement pour une chaîne de caractères. Celle-ci est utilisée dans la fonction cesar pour donner un exemple de déchiffrement.
+
+- Le fichier d'entête chiffrer.h
+
+- Les fichiers sources cesar.c, cipher.c, cipher_file.c des différents programmes demandés :
+  Cesar réalise un chiffrement, ainsi qu'un déchiffrement, par décalage d'une clé key d'une chaine de caractères décrite dans une constante
+  symbolique.
+  Cipher réalise un chiffrement en fournissant en paramètre un entier, représentant le décalage à appliquer et qui fonctionne en réalisant
+  une lecture depuis l'entrée standard.
+  Cipher_file qui chiffre un fichier entré en paramètre, avec une clé définit dans une constante symbolique.
+
+- Un fichier fic.txt qui sert de fichier texte d'exemple, pour tester l'exécutable de cipher_file.
+
+- Le fichier Makefile relatif aux codes sources, permettant la compilation des exécutables et des commandes.
